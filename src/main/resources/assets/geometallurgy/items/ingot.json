@@ -1,0 +1,364 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "geometallurgy:ingot_metal",
+    "cases": [
+      {
+        "when": "potassium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -4610359
+            }
+          ]
+        }
+      },
+      {
+        "when": "calcium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -2698556
+            }
+          ]
+        }
+      },
+      {
+        "when": "sodium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3552812
+            }
+          ]
+        }
+      },
+      {
+        "when": "magnesium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3683127
+            }
+          ]
+        }
+      },
+      {
+        "when": "aluminum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3879982
+            }
+          ]
+        }
+      },
+      {
+        "when": "manganese",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -6385752
+            }
+          ]
+        }
+      },
+      {
+        "when": "zinc",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -6311748
+            }
+          ]
+        }
+      },
+      {
+        "when": "chromium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -4799796
+            }
+          ]
+        }
+      },
+      {
+        "when": "iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -2565928
+            }
+          ]
+        }
+      },
+      {
+        "when": "cobalt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -9531440
+            }
+          ]
+        }
+      },
+      {
+        "when": "nickel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3616828
+            }
+          ]
+        }
+      },
+      {
+        "when": "tin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3749684
+            }
+          ]
+        }
+      },
+      {
+        "when": "lead",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -7566183
+            }
+          ]
+        }
+      },
+      {
+        "when": "tungsten",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -9538696
+            }
+          ]
+        }
+      },
+      {
+        "when": "molybdenum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -7695460
+            }
+          ]
+        }
+      },
+      {
+        "when": "copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -2065850
+            }
+          ]
+        }
+      },
+      {
+        "when": "bismuth",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -3556145
+            }
+          ]
+        }
+      },
+      {
+        "when": "silver",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1840913
+            }
+          ]
+        }
+      },
+      {
+        "when": "gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -865972
+            }
+          ]
+        }
+      },
+      {
+        "when": "mercury",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -4602932
+            }
+          ]
+        }
+      },
+      {
+        "when": "silicon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -6314322
+            }
+          ]
+        }
+      },
+      {
+        "when": "barium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -2701400
+            }
+          ]
+        }
+      },
+      {
+        "when": "rare_earth",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -4151096
+            }
+          ]
+        }
+      },
+      {
+        "when": "wrought_iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1512980
+            }
+          ]
+        }
+      },
+      {
+        "when": "steel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -5327684
+            }
+          ]
+        }
+      },
+      {
+        "when": "alloy_steel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -7432290
+            }
+          ]
+        }
+      },
+      {
+        "when": "pig_iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "geometallurgy:item/ingot_crude",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -7700360
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "geometallurgy:item/ingot_crude"
+    }
+  }
+}

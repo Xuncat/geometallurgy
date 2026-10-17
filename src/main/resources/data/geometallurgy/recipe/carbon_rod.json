@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "geometallurgy:carbon_powder",
+    "geometallurgy:carbon_powder",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "geometallurgy:carbon_rod",
+    "count": 1
+  }
+}

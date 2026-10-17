@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"lit=false": {
+			"model": "geometallurgy:block/centrifuge"
+		},
+		"lit=true": {
+			"model": "geometallurgy:block/centrifuge_on"
+		}
+	}
+}

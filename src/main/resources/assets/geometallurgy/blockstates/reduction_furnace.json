@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "geometallurgy:block/reduction_furnace"
+    },
+    "lit=true": {
+      "model": "geometallurgy:block/reduction_furnace_on"
+    }
+  }
+}

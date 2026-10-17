@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "BLB",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:copper_block",
+    "C": "minecraft:redstone_block",
+    "B": "minecraft:iron_block",
+    "L": "minecraft:lightning_rod"
+  },
+  "result": {
+    "id": "geometallurgy:electrolysis_furnace",
+    "count": 1
+  }
+}

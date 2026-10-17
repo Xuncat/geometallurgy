@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CIC",
+		"IDI",
+		"CIC"
+	],
+	"key": {
+		"C": "minecraft:copper_block",
+		"I": "minecraft:iron_block",
+		"D": "minecraft:diamond"
+	},
+	"result": {
+		"id": "geometallurgy:fluid_vein_extractor",
+		"count": 1
+	}
+}

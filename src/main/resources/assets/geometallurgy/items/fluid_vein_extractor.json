@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "geometallurgy:item/fluid_vein_extractor"
+  }
+}

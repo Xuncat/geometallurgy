@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "geometallurgy",
+	"version": "${version}",
+	"name": "地质工业冶金 Geometallurgy",
+	"description": "地质工业冶金：地下不生成矿石方块，而是按世界种子确定性地给每个区块分配矿物、伴生相与稀有度。火力发电机供电给矿脉抽取机开采矿浆，经粉碎、磁选/离心选矿，最后在还原炉、电解炉、置换炉三路冶金中炼成锭。",
+	"authors": [
+		"寻寻喵"
+	],
+	"contact": {
+		"homepage": "https://github.com/Xuncat/geometallurgy",
+		"sources": "https://github.com/Xuncat/geometallurgy",
+		"issues": "https://github.com/Xuncat/geometallurgy/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/geometallurgy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.geometallurgy.Geometallurgy"
+		],
+		"client": [
+			"com.geometallurgy.client.GeometallurgyClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.4- <26.5",
+		"java": ">=25",
+		"fabric-api": ">=0.162.2"
+	}
+}

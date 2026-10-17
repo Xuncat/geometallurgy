@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "BFB",
+    "IGI"
+  ],
+  "key": {
+    "I": "minecraft:copper_block",
+    "G": "minecraft:glass",
+    "B": "minecraft:iron_block",
+    "F": "minecraft:furnace"
+  },
+  "result": {
+    "id": "geometallurgy:displacement_furnace",
+    "count": 1
+  }
+}

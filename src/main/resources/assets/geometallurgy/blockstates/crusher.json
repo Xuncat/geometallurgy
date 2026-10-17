@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"lit=false": {
+			"model": "geometallurgy:block/crusher"
+		},
+		"lit=true": {
+			"model": "geometallurgy:block/crusher_on"
+		}
+	}
+}

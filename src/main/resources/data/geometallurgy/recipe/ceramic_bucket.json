@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CBC",
+    "B B",
+    "CBC"
+  ],
+  "key": {
+    "C": "minecraft:clay_ball",
+    "B": "minecraft:brick"
+  },
+  "result": {
+    "id": "geometallurgy:ceramic_bucket",
+    "count": 1
+  }
+}

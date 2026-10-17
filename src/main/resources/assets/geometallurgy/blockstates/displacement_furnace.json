@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "geometallurgy:block/displacement_furnace"
+    },
+    "lit=true": {
+      "model": "geometallurgy:block/displacement_furnace_on"
+    }
+  }
+}

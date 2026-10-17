@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"pattern": [
+		"CIC",
+		"CBC",
+		"SSS"
+	],
+	"key": {
+		"C": "minecraft:copper_block",
+		"I": "minecraft:iron_block",
+		"B": "minecraft:blast_furnace",
+		"S": "minecraft:smooth_stone"
+	},
+	"result": {
+		"id": "geometallurgy:coal_generator",
+		"count": 1
+	}
+}

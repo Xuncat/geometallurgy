@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/coal_generator_top",
+    "down": "geometallurgy:block/coal_generator_bottom",
+    "north": "geometallurgy:block/coal_generator",
+    "south": "geometallurgy:block/coal_generator",
+    "east": "geometallurgy:block/coal_generator",
+    "west": "geometallurgy:block/coal_generator",
+    "particle": "geometallurgy:block/coal_generator"
+  }
+}

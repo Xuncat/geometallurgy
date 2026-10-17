@@ -1,0 +1,21 @@
+{
+  "values": [
+    "geometallurgy:vein_extractor",
+    "geometallurgy:coal_generator",
+    "geometallurgy:fluid_vein_extractor",
+    "geometallurgy:magnetic_separator",
+    "geometallurgy:crusher",
+    "geometallurgy:centrifuge",
+    "geometallurgy:reduction_furnace",
+    "geometallurgy:electrolysis_furnace",
+    "geometallurgy:displacement_furnace",
+    "geometallurgy:battery",
+    "geometallurgy:wireless_sensor",
+    "geometallurgy:reaction_vessel",
+    "geometallurgy:mixer",
+    "geometallurgy:metal_barrel",
+    "geometallurgy:glass_barrel",
+    "geometallurgy:lead_barrel",
+    "geometallurgy:ceramic_barrel"
+  ]
+}

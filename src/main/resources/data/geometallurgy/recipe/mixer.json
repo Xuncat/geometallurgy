@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "GTG",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "C": "minecraft:copper_block",
+    "G": "minecraft:glass",
+    "T": "geometallurgy:tungsten_rod"
+  },
+  "result": {
+    "id": "geometallurgy:mixer",
+    "count": 1
+  }
+}

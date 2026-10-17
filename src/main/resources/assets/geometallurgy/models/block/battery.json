@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "geometallurgy:block/battery_top",
+    "bottom": "geometallurgy:block/battery_bottom",
+    "side": "geometallurgy:block/battery_side"
+  }
+}

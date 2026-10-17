@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "geometallurgy:item/metal_bucket_fluid",
+    "layer1": "geometallurgy:item/ceramic_bucket_hollow"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"lit=false": { "model": "geometallurgy:block/coal_generator" },
+		"lit=true": { "model": "geometallurgy:block/coal_generator_on" }
+	}
+}

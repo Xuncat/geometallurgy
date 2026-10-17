@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/reaction_vessel_top",
+    "down": "geometallurgy:block/reaction_vessel_bottom",
+    "north": "geometallurgy:block/reaction_vessel_side_on",
+    "south": "geometallurgy:block/reaction_vessel_side_on",
+    "east": "geometallurgy:block/reaction_vessel_side_on",
+    "west": "geometallurgy:block/reaction_vessel_side_on",
+    "particle": "geometallurgy:block/reaction_vessel_side_on"
+  }
+}

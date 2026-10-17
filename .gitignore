@@ -1,0 +1,53 @@
+# ===== 构建产物 =====
+.gradle/
+build/
+out/
+bin/
+*.jar
+# gradle wrapper 的 jar 必须保留（这条要写在 *.jar 之后，否则会被上一条吃掉）
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Loom =====
+.loom/
+remappedSrc/
+
+# ===== 开发运行目录（runClient / runServer 生成的世界、日志、eula）=====
+run/
+runs/
+mods/
+local_mods/
+libs/
+
+# ===== 本机工作留痕 =====
+backups/
+logs/
+*.log
+crash-reports/
+docs/.manual-backup/
+# 开发笔记与依赖未公开子模组的脚本：留在本机，不随仓库分发
+dev-notes/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+*.launch
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 密钥与签名 —— 绝不提交 =====
+*.jks
+*.keystore
+*.p12
+signing.properties
+secrets.properties
+.env

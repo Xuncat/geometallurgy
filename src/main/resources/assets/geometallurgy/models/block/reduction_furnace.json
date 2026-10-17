@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/reduction_furnace_top",
+    "down": "geometallurgy:block/reduction_furnace_bottom",
+    "north": "geometallurgy:block/reduction_furnace",
+    "south": "geometallurgy:block/reduction_furnace",
+    "east": "geometallurgy:block/reduction_furnace",
+    "west": "geometallurgy:block/reduction_furnace",
+    "particle": "geometallurgy:block/reduction_furnace"
+  }
+}

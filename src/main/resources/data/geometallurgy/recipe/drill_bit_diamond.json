@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"DDD",
+		" I "
+	],
+	"key": {
+		"D": "minecraft:diamond",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "geometallurgy:drill_bit_diamond",
+		"count": 1
+	}
+}

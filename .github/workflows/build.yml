@@ -1,0 +1,69 @@
+# 构建与发布
+# tag 触发时构建 jar 并挂到 Release；分支推送只做编译验证。
+
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      # tag 与 gradle.properties 的 mod_version 必须完全一致，
+      # 否则 jar 内版本号与 Release 标签对不上，玩家反馈问题时无法定位。
+      - name: Verify tag matches mod_version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          V=$(grep -E '^mod_version=' gradle.properties | cut -d= -f2 | tr -d '[:space:]')
+          T=${GITHUB_REF_NAME#v}
+          echo "tag=$T  mod_version=$V"
+          if [ "$V" != "$T" ]; then
+            echo "::error::tag $T 与 gradle.properties 的 mod_version=$V 不一致"
+            exit 1
+          fi
+
+      - name: Build
+        run: ./gradlew build --stacktrace
+
+      # 只保留正式产物，排除 -dev / -sources
+      - name: Collect jar
+        run: |
+          mkdir -p dist
+          find build/libs -name '*.jar' \
+            ! -name '*-dev.jar' ! -name '*-sources.jar' \
+            -exec cp {} dist/ \;
+          ls -la dist/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mod-jar
+          path: dist/*.jar
+
+      - name: Attach to Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.jar
+          generate_release_notes: true
+          # tag 含 '-' 即视为预发布（1.0.0-beta.1），不占 Latest
+          prerelease: ${{ contains(github.ref_name, '-') }}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:clay_ball",
+    "B": "minecraft:brick"
+  },
+  "result": {
+    "id": "geometallurgy:ceramic_barrel",
+    "count": 1
+  }
+}

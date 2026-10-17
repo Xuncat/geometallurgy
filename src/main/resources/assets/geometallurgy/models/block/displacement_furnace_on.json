@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/displacement_furnace_top",
+    "down": "geometallurgy:block/displacement_furnace_bottom",
+    "north": "geometallurgy:block/displacement_furnace_on",
+    "south": "geometallurgy:block/displacement_furnace_on",
+    "east": "geometallurgy:block/displacement_furnace_on",
+    "west": "geometallurgy:block/displacement_furnace_on",
+    "particle": "geometallurgy:block/displacement_furnace_on"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:coals",
+    "#minecraft:coals"
+  ],
+  "result": {
+    "id": "geometallurgy:carbon_powder",
+    "count": 1
+  }
+}

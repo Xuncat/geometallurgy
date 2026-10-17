@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/electrolysis_furnace_top",
+    "down": "geometallurgy:block/electrolysis_furnace_bottom",
+    "north": "geometallurgy:block/electrolysis_furnace_on",
+    "south": "geometallurgy:block/electrolysis_furnace_on",
+    "east": "geometallurgy:block/electrolysis_furnace_on",
+    "west": "geometallurgy:block/electrolysis_furnace_on",
+    "particle": "geometallurgy:block/electrolysis_furnace_on"
+  }
+}

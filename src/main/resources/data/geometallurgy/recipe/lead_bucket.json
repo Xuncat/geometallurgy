@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": "geometallurgy:ingot"
+  },
+  "result": {
+    "id": "geometallurgy:lead_bucket",
+    "count": 1
+  }
+}

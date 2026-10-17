@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/vein_extractor_top",
+    "down": "geometallurgy:block/vein_extractor_bottom",
+    "north": "geometallurgy:block/vein_extractor_on",
+    "south": "geometallurgy:block/vein_extractor_on",
+    "east": "geometallurgy:block/vein_extractor_on",
+    "west": "geometallurgy:block/vein_extractor_on",
+    "particle": "geometallurgy:block/vein_extractor_on"
+  }
+}

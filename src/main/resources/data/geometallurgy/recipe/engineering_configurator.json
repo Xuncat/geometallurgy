@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:iron_ingot",
+		"minecraft:redstone",
+		"minecraft:redstone",
+		"minecraft:paper"
+	],
+	"result": {
+		"id": "geometallurgy:engineering_configurator",
+		"count": 1
+	}
+}

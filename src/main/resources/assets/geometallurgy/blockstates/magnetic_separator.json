@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"lit=false": { "model": "geometallurgy:block/magnetic_separator" },
+		"lit=true": { "model": "geometallurgy:block/magnetic_separator_on" }
+	}
+}

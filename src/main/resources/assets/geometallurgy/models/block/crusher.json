@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/crusher_top",
+    "down": "geometallurgy:block/crusher_bottom",
+    "north": "geometallurgy:block/crusher",
+    "south": "geometallurgy:block/crusher",
+    "east": "geometallurgy:block/crusher",
+    "west": "geometallurgy:block/crusher",
+    "particle": "geometallurgy:block/crusher"
+  }
+}

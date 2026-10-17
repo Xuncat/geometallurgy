@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"GGG",
+		" I "
+	],
+	"key": {
+		"G": "minecraft:gold_ingot",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "geometallurgy:drill_bit_gold",
+		"count": 1
+	}
+}

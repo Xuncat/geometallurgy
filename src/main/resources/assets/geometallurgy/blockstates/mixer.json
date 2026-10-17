@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "geometallurgy:block/mixer"
+    },
+    "lit=true": {
+      "model": "geometallurgy:block/mixer_on"
+    }
+  }
+}

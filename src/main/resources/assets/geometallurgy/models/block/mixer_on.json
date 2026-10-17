@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/mixer_top",
+    "down": "geometallurgy:block/mixer_bottom",
+    "north": "geometallurgy:block/mixer_side_on",
+    "south": "geometallurgy:block/mixer_side_on",
+    "east": "geometallurgy:block/mixer_side_on",
+    "west": "geometallurgy:block/mixer_side_on",
+    "particle": "geometallurgy:block/mixer_side_on"
+  }
+}

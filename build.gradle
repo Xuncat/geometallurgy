@@ -1,0 +1,90 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Loom 已自动添加 Minecraft / Fabric 所需仓库。
+	// Team Reborn Energy 发布在 Fabric 官方 maven 上。
+	maven {
+		name = 'Fabric'
+		url = 'https://maven.fabricmc.net/'
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// Team Reborn Energy —— Fabric 生态事实标准的能量 API（Fabric API 本身不提供能量系统）。
+	// 5.x 对应 Minecraft 26.1+。26.x 不混淆后 Loom 不再有 mod* 配置，直接走普通 implementation。
+	implementation "teamreborn:energy:${project.energy_version}"
+	include "teamreborn:energy:${project.energy_version}"
+}
+
+// 需要让客户端自动进入某个测试世界时，必须从命令行传参：
+//   ./gradlew runClient --args="--quickPlaySingleplayer <世界文件夹名>"
+// 注意不要写在 build.gradle 的任务配置里（loom 会覆盖任务级 args），也不要省掉 --args。
+
+tasks.register("listConfigs") {
+	doLast {
+		configurations.names.sort().each { println "  " + it }
+	}
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
+
+java {
+	withSourcesJar()
+
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+jar {
+	def projectName = project.name
+	inputs.property "projectName", projectName
+
+	from("LICENSE") {
+		rename { "${it}_$projectName" }
+	}
+}
+
+publishing {
+	publications {
+		create("mavenJava", MavenPublication) {
+			from components.java
+		}
+	}
+
+	repositories {
+	}
+}
+
+// ===== 共享运行区/备份区同步（WorkBuddy 顶层统一管理，勿删） =====
+// ===== 共享运行区/备份区同步（仅本机存在，仓库里没有这个文件） =====
+// 开源版跳过：直接用 apply from 会在别人 clone 后因路径不存在而构建失败。
+def syncScript = file("../../mods-shared/sync.gradle")
+if (syncScript.exists()) {
+	apply from: syncScript
+}

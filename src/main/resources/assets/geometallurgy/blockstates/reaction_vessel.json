@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"lit=false": {
+			"model": "geometallurgy:block/reaction_vessel"
+		},
+		"lit=true": {
+			"model": "geometallurgy:block/reaction_vessel_on"
+		}
+	}
+}

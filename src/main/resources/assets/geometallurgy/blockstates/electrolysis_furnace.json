@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "geometallurgy:block/electrolysis_furnace"
+    },
+    "lit=true": {
+      "model": "geometallurgy:block/electrolysis_furnace_on"
+    }
+  }
+}

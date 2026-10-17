@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IBI",
+    "BFB",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "B": "minecraft:bricks",
+    "F": "minecraft:furnace",
+    "C": "minecraft:coal_block"
+  },
+  "result": {
+    "id": "geometallurgy:reduction_furnace",
+    "count": 1
+  }
+}

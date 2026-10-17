@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/centrifuge_top",
+    "down": "geometallurgy:block/centrifuge_bottom",
+    "north": "geometallurgy:block/centrifuge_on",
+    "south": "geometallurgy:block/centrifuge_on",
+    "east": "geometallurgy:block/centrifuge_on",
+    "west": "geometallurgy:block/centrifuge_on",
+    "particle": "geometallurgy:block/centrifuge_on"
+  }
+}

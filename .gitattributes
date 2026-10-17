@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# 二进制资源，禁止换行符转换
+*.png binary
+*.jar binary
+*.ogg binary
+*.nbt binary
+
+# Gradle wrapper 在 Windows 上容易丢可执行位
+gradlew text eol=lf
+*.bat text eol=crlf

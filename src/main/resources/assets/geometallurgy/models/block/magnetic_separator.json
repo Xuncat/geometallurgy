@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "geometallurgy:block/magnetic_separator_top",
+    "down": "geometallurgy:block/magnetic_separator_bottom",
+    "north": "geometallurgy:block/magnetic_separator",
+    "south": "geometallurgy:block/magnetic_separator",
+    "east": "geometallurgy:block/magnetic_separator",
+    "west": "geometallurgy:block/magnetic_separator",
+    "particle": "geometallurgy:block/magnetic_separator"
+  }
+}

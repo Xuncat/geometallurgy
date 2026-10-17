@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "I I",
+    "III"
+  ],
+  "key": {
+    "I": "geometallurgy:ingot"
+  },
+  "result": {
+    "id": "geometallurgy:lead_barrel",
+    "count": 1
+  }
+}

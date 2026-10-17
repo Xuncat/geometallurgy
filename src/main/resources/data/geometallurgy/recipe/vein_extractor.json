@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CIC",
+		"IDI",
+		"CIC"
+	],
+	"key": {
+		"C": "#minecraft:stone_crafting_materials",
+		"I": "minecraft:iron_block",
+		"D": "minecraft:diamond"
+	},
+	"result": {
+		"id": "geometallurgy:vein_extractor",
+		"count": 1
+	}
+}
